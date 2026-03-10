@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/api/banxico/*"
+  to = "https://www.banxico.org.mx/SieAPIRest/service/v1/series/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
